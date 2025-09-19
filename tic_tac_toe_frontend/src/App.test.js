@@ -1,8 +1,7 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
-
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+/**
+ * Deprecated test moved to src/__tests__/test_App.spec.js for organization.
+ * Keeping file to avoid CRA warnings if references exist, but no tests here.
+ */
+test('placeholder', () => {
+  expect(true).toBe(true);
 });
